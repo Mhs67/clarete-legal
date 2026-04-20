@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support — Clareté</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Lora', Georgia, serif;
+      font-size: 16px;
+      line-height: 1.8;
+      color: rgba(255,255,255,0.85);
+      background: #000000;
+      min-height: 100vh;
+      padding: 64px 24px 96px;
+    }
+
+    .wrap {
+      max-width: 620px;
+      margin: 0 auto;
+    }
+
+    .logo {
+      width: 36px;
+      height: 36px;
+      margin-bottom: 48px;
+    }
+
+    h1 {
+      font-size: 26px;
+      font-weight: 300;
+      letter-spacing: -0.3px;
+      color: rgba(255,255,255,1.0);
+      margin-bottom: 6px;
+    }
+
+    .meta {
+      font-size: 13px;
+      color: rgba(255,255,255,0.35);
+      margin-bottom: 48px;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      letter-spacing: 0.3px;
+    }
+
+    .intro {
+      font-size: 17px;
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 56px;
+      line-height: 1.75;
+    }
+
+    h2 {
+      font-size: 11px;
+      font-weight: 500;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      color: rgba(255,255,255,0.85);
+      margin-top: 48px;
+      margin-bottom: 12px;
+    }
+
+    p {
+      font-size: 15px;
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 16px;
+    }
+
+    ul {
+      padding-left: 0;
+      list-style: none;
+      margin-bottom: 16px;
+    }
+
+    li {
+      font-size: 15px;
+      color: rgba(255,255,255,0.85);
+      padding: 6px 0 6px 20px;
+      position: relative;
+      border-bottom: 0.5px solid rgba(255,255,255,0.15);
+    }
+
+    li:first-child {
+      border-top: 0.5px solid rgba(255,255,255,0.15);
+    }
+
+    li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.35);
+    }
+
+    a {
+      color: rgba(255,255,255,0.85);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    a:hover {
+      color: rgba(255,255,255,1.0);
+    }
+
+    .divider {
+      border: none;
+      border-top: 0.5px solid rgba(255,255,255,0.15);
+      margin: 56px 0 0;
+    }
+  </style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- Ripple logo -->
+  <svg class="logo" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="18" cy="18" r="4.5" fill="#FFFFFF"/>
+    <circle cx="18" cy="18" r="10" stroke="#FFFFFF" stroke-width="1" opacity="0.6"/>
+    <circle cx="18" cy="18" r="15.5" stroke="#FFFFFF" stroke-width="0.75" opacity="0.25"/>
+  </svg>
+
+  <h1>Support</h1>
+  <p class="meta">Clareté &nbsp;·&nbsp; Last updated April 2026</p>
+
+  <p class="intro">If something is not working or you have a question, here is how to get help.</p>
+
+  <h2>Send feedback from the app</h2>
+  <p>The fastest way to reach us is through the in-app feedback form. Open Clareté → Settings → About → Send feedback. Your message goes directly to the developer.</p>
+
+  <h2>Common questions</h2>
+
+  <ul>
+    <li>My insight did not generate — Insight generation requires an internet connection and runs once a week. If it failed, Clareté will retry automatically on your next app open.</li>
+    <li>I want to delete all my data — Go to Settings → Your data → Delete all data. This permanently removes all entries, insights, and your anonymous identifier from the device.</li>
+    <li>Does Clareté back up my data? — No. All data is stored locally on your device and excluded from iCloud backup by design.</li>
+    <li>I forgot to log a previous day — Tap any day tile in the current week (Sunday to Saturday) on the Home screen to log or edit that day's entry. Days from previous weeks cannot be edited.</li>
+    <li>Can I change my notification time? — Yes. Go to Settings → Notifications → Daily reminder and adjust the time.</li>
+  </ul>
+
+  <h2>About your data</h2>
+  <p>Your journal entries never leave your phone except to generate your weekly insight, which is processed anonymously and not stored. For full details, see the <a href="privacy.html">Privacy Policy</a>.</p>
+
+  <h2>Contact</h2>
+  <p>For anything not covered above, use the in-app feedback form in Settings → About → Send feedback. We read every message.</p>
+
+  <hr class="divider">
+
+</div>
+</body>
+</html>
